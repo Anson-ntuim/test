@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的個人網頁</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 導航欄 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#" id="nav-logo-link">
+                    <div class="logo-icon">◢</div>
+                    <span>Bronny's James</span>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">首頁</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">關於我</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">技能</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#courses" class="nav-link">好課分享</a>
+                </li>
+            <li class="nav-item">
+                    <a href="#contact" class="nav-link">聯絡我</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- LeBron 圖片彩蛋 -->
+    <div id="lebronImage" class="lebron-easter-egg">
+        <img src="imgs/lebronJames.jpg" alt="LeBron James">
+    </div>
+
+    <!-- 首頁區塊 -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="hero-badge-icon">▲</span>
+                    <span>資訊管理學系</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="hero-title-line">台灣大學</span>
+                    <span class="hero-title-line hero-title-highlight">資訊管理學系</span>
+                    <span class="hero-title-line">蔡仁瑋</span>
+                </h1>
+                
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">3+</div>
+                        <div class="hero-stat-label">年經驗</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">20+</div>
+                        <div class="hero-stat-label">完成專案</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">NTU</div>
+                        <div class="hero-stat-label">台灣大學</div>
+                    </div>
+                </div>
+                
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">
+                        <span>了解更多</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>聯絡我</span>
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                
+                <div class="hero-tech-stack">
+                    <span class="tech-label">技術專長</span>
+                    <div class="tech-icons">
+                        <span class="tech-icon" title="React">React</span>
+                        <span class="tech-icon" title="JavaScript">JS</span>
+                        <span class="tech-icon" title="TypeScript">TS</span>
+                        <span class="tech-icon" title="Node.js">Node</span>
+                        <span class="tech-icon" title="CSS3">CSS</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <div class="profile-image-container">
+                    <img src="imgs/IMG_3022.jpg" alt="蔡仁瑋 - 個人頭像" class="profile-image">
+                    <div class="profile-image-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 關於我區塊 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">關於我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>我是一名充滿熱情的前端開發者，專注於創建美觀且功能強大的網頁應用程式。我喜歡學習新技術，並且享受將創意轉化為現實的過程。</p>
+                    <p>在我的職業生涯中，我參與了多個專案，從簡單的靜態網頁到複雜的單頁應用程式。我相信好的設計不僅要美觀，更要實用且易於使用。</p>
+                    
+                    <div class="interests-section">
+                        <h3>我的興趣愛好</h3>
+                        <div class="interests-grid">
+                            <div class="interest-card">
+                                <div class="interest-icon">
+                                    <i class="fas fa-basketball-ball"></i>
+                                </div>
+                                <h4>打籃球</h4>
+                                <p>熱愛籃球運動，享受團隊合作和競技的樂趣</p>
+                            </div>
+                            <div class="interest-card">
+                                <div class="interest-icon">
+                                    <i class="fas fa-gamepad"></i>
+                                </div>
+                                <h4>玩遊戲</h4>
+                                <p>喜歡各種類型的遊戲，從策略到動作都很有興趣</p>
+                            </div>
+                            <div class="interest-card">
+                                <div class="interest-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <h4>寫程式</h4>
+                                <p>熱衷於程式設計，喜歡解決問題和創造新功能</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能區塊 -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">技能專長</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <p>語義化標籤，無障礙設計，SEO優化</p>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="90"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <p>響應式設計，動畫效果，Flexbox/Grid</p>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="85"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>ES6+語法，DOM操作，非同步處理</p>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="80"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>React</h3>
+                    <p>組件開發，狀態管理，Hooks使用</p>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="75"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 好課分享區塊 -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2 class="section-title">好課分享</h2>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-image">
+                        <div class="course-placeholder">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <h3>網路服務程式設計</h3>
+                        <p>黃鐘揚老師的網路服務程式設計課程，學習現代網頁開發技術和服務架構設計。</p>
+                        <div class="course-tags">
+                            <span class="tag">網路服務程式設計</span>
+                            <span class="tag">黃鐘揚</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 聯絡我區塊 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">聯絡我</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>電子郵件</h3>
+                            <p>your.email@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p>linkedin.com/in/yourprofile</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div>
+                            <h3>GitHub</h3>
+                            <p>github.com/yourusername</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="您的姓名" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="您的電子郵件" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="主旨" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="您的訊息" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">發送訊息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁腳 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 我的個人網頁. 保留所有權利.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
